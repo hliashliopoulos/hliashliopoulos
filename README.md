@@ -4,6 +4,8 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/ilias-iliopoulos-787802305/)
 
+[View my animated portfolio ↗](https://hliashliopoulos.github.io/animated-resume/)
+
 I'm a postgraduate student in Advanced Information Systems and Services at the University of Piraeus. I learn by building small projects with Java, Python, SQL and Docker.
 
 ## Tech stack
