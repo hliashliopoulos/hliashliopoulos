@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ilias Iliopoulos's portfolio of Java, SQL and Docker projects.">
+  <title>Ilias Iliopoulos · Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="resume.js" defer></script>
+</head>
+<body>
+  <header class="site-header wrap">
+    <a class="wordmark" href="#top" aria-label="Ilias Iliopoulos, home">ILIAS<span>.</span></a>
+    <nav aria-label="Portfolio">
+      <a href="#projects">Projects</a>
+      <a href="https://github.com/hliashliopoulos">GitHub <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="top" class="wrap">
+    <section class="hero" aria-labelledby="name">
+      <div class="intro">
+        <p class="eyebrow">Information systems · Data · Software</p>
+        <h1 id="name">Ilias<br>Iliopoulos<span>.</span></h1>
+        <p class="lead">MSc student in Advanced Information Systems and Services at the University of Piraeus. I build small projects to learn how applications and their data fit together.</p>
+        <div class="actions">
+          <a class="pill primary" href="#projects">Explore projects <span aria-hidden="true">↓</span></a>
+          <button class="pill secondary" type="button" id="replay" hidden>Replay animation <span aria-hidden="true">↻</span></button>
+        </div>
+      </div>
+
+      <div class="resume-stage">
+        <section class="resume" id="resume" aria-labelledby="resume-title">
+          <div class="resume-header">
+            <span class="monogram" aria-hidden="true">II</span>
+            <div>
+              <h2 id="resume-title">Ilias Iliopoulos</h2>
+              <p>Information Systems Portfolio</p>
+            </div>
+          </div>
+          <div class="resume-block">
+            <h3>Education</h3>
+            <p>University of Piraeus</p>
+            <small>MSc in Advanced Information Systems and Services</small>
+          </div>
+          <div class="resume-block">
+            <h3>Technical skills</h3>
+            <ul class="tags" aria-label="Technical skills">
+              <li>Java</li><li>Python</li><li>SQL</li><li>Docker</li>
+            </ul>
+          </div>
+          <div class="resume-block">
+            <h3>Selected work</h3>
+            <ul class="resume-projects">
+              <li><a href="#agroktima">Agroktima API</a><span>Application</span></li>
+              <li><a href="#northwind">Northwind SQL</a><span>Analytics</span></li>
+              <li><a href="#research-lab">Research Lab</a><span>Data modeling</span></li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section class="project-section" id="projects" aria-labelledby="projects-title">
+      <h2 id="projects-title">Selected projects</h2>
+      <div class="project-grid">
+        <article id="agroktima">
+          <p class="eyebrow">Java · Docker</p>
+          <h3>Agroktima API</h3>
+          <p>A small Java API based on a farm simulation, packaged in Docker to run in a consistent environment.</p>
+        </article>
+        <article id="northwind">
+          <p class="eyebrow">SQL Server · Analytics</p>
+          <h3>Northwind SQL</h3>
+          <p>SQL queries that use joins and aggregation to analyze customer spending and order totals.</p>
+        </article>
+        <article id="research-lab">
+          <p class="eyebrow">MySQL · Database design</p>
+          <h3>Research Lab</h3>
+          <p>A relational database model for researchers, projects, publications and funding.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer wrap">
+    <span>Ilias Iliopoulos</span>
+    <a href="https://github.com/hliashliopoulos">View GitHub profile <span aria-hidden="true">↗</span></a>
+  </footer>
+</body>
+</html>
