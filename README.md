@@ -1,4 +1,4 @@
-# Hi, I'm Ilias 👋
+# ![Hi, I’m Ilias. Python, SQL and Machine Learning.](./assets/animated-profile.gif)
 
 ## About me
 
